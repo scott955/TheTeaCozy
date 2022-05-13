@@ -1,0 +1,157 @@
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: calc(100vw - 20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 69px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid seashell;
+}
+
+p, 
+a {
+    font-size: 22px;
+}
+
+.mission img {
+    width: 1200px;
+    height: 700px;
+    padding-top: 70px;
+}
+
+.missionBanner {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(420px - 64px);
+    width: 100vw;
+    background-color: black;
+    align-items: center;
+}
+
+.header_image {
+    height: 50px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.navigation a {
+    text-decoration: underline;
+}
+
+/* Section below for Tea of the Month portion of page */
+.teaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin-top: 35px;
+}
+
+.teaImageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.teaImageContainer h4 {
+    margin-top: 0px;
+}
+
+.teaMonth {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;  
+}
+
+.teaTop {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.teaBottom {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+
+.teaImage {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+/* Section below for the Locations portion of page */
+.locationImage {
+    height: 700px;
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.locationBanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 1580px;
+    left: calc(50vw - 490px);
+}
+
+.locationTitle {
+    width: 500px;
+}
+
+.locationTitle h2 {
+    margin-bottom: 15px;
+}
+
+.threeContainer {
+    display: flex;
+    width: 980px;
+    justify-content: space-between;
+}
+
+.threeContainer div {
+    width: 300px;
+    background-color: black;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: black;
+    width: 100vw;
+    position: absolute;
+    top: 1990px;
+}
+
+footer {
+    display: flex;
+    margin-left: 20px;
+    align-items: flex-start;
+}
+
